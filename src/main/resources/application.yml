@@ -1,0 +1,10 @@
+amazon:
+  dynamodb:
+    endpoint: ${DYNAMO_DB_ENDPOINT:http://localhost:8000/}
+    region: ${DYNAMO_DB_REGION:us-west-2}
+    accessKey: ${DYNAMO_DB_ACCESS_KEY:mockAccessKey}
+    secretKey: ${DYNAMO_DB_SECRETKEY:mockSecretKey}
+    
+#logging:
+#  level:
+#    org.springframework: TRACE
