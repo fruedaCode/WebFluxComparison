@@ -20,7 +20,7 @@ Run write/read test and see results.
 
 ## Results
 ### Read Operation Blocking
-![Read operatrion Blocking](https://raw.githubusercontent.com/fruedaCode/WebFluxComparison/blob/master/jmeter/Read%20Blocking.png)
+![Read operatrion Blocking](https://user-images.githubusercontent.com/22854367/35768884-e6624db0-0902-11e8-9847-dfc19592c444.png)
 
 ### Read Operation Non Blocking
-![Read operation Non Blocking](https://raw.githubusercontent.com/fruedaCode/WebFluxComparison/blob/master/jmeter/Read%20NonBlocking.png)
+![Read operation Non Blocking](https://user-images.githubusercontent.com/22854367/35768885-e888f864-0902-11e8-88f3-f884272afd24.png)
