@@ -3,7 +3,7 @@
 out/
 !gradle/wrapper/gradle-wrapper.jar
 
-
+jmeter.log
 
 ### IntelliJ IDEA ###
 .idea
