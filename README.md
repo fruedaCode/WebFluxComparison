@@ -15,6 +15,12 @@ docker run --cpus=1 -e DYNAMO_DB_ENDPOINT=http://[local IP]:8000/ -m 512m -p 808
 docker run --cpus=1 -e DYNAMO_DB_ENDPOINT=http://[local IP]:8000/ -m 512m -p 8081:8080 --rm --name userBlock -v $pwd/build/libs:/app openjdk:8-slim java -jar  /app/WebFluxComparison.jar
 ```
 
-
 open loadTest.jmx in jmeter
 Run write/read test and see results.
+
+## Results
+### Read Operation Blocking
+![Read operatrion Blocking](https://raw.githubusercontent.com/fruedaCode/WebFluxComparison/blob/master/jmeter/Read%20Blocking.png)
+
+### Read Operation Non Blocking
+![Read operation Non Blocking](https://raw.githubusercontent.com/fruedaCode/WebFluxComparison/blob/master/jmeter/Read%20NonBlocking.png)
